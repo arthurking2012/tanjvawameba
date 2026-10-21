@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build artifacts
+dist/
+build/
+*.local
+
+# Environment variables
+.env
+server/.env
+
+# Temporary and upload files (except .gitkeep)
+server/uploads/*
+!server/uploads/.gitkeep
+server/data/*.tmp.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
